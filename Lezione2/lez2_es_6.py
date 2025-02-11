@@ -149,10 +149,7 @@ pets_dict: dict ={1:asia_dict,
                   2:lilu_dict,
                   3:tancredi_dict}
 
-# for value in pets_dict.values():
-#     for k,v in value.items():
-#        #print(k,v)
-#     print(value)
+
 
 for k, v in pets_dict.items():
 
