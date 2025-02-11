@@ -29,7 +29,7 @@ x = int(input("inserisci il numero per calcolare la media  "))
 y = int(input("inserisci il numero per calcolare la media  "))
 z = int(input("inserisci il numero per calcolare la media  "))
 media = (x + y + z)/3
-print(f"Media di 3 numeri inseriti è {media:1f}")
+print(f"Media di 3 numeri inseriti è {media:.1f}")
 
 print("\n   Esercizio 3 versione 2\n")
 somma=0
@@ -38,17 +38,15 @@ for i in range(quantita_numeri):
     x = int(input("inserisci il numero per calcolare la media  "))
     somma += x
 media = somma / quantita_numeri
-print(f"Media di {quantita_numeri} numeri inseriti è {media:1f}")
+print(f"Media di {quantita_numeri} numeri inseriti è {media:.1f}")
 
 
 
 #esercizio_4
 print("\n   Esercizio 4\n")
-x = 2024
-print(x-2022)
-print(x-2024)
-print(x-2022)
-print(x-2020)
+x = "2024"
+for i in x:
+    print(i)
 
 
 
@@ -56,7 +54,7 @@ print(x-2020)
 print("\n   Esercizio 5\n")
 x = int(input("Inserisci temperatura in gradi Fahrenheit  "))
 y = 5 * (x - 32) / 9
-print(f"{x} gradi Fahrenheit corrispondono a {y:1f} gradi Celsius")
+print(f"{x} gradi Fahrenheit corrispondono a {y:.1f} gradi Celsius")
 
 
 

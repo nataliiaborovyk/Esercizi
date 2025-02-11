@@ -155,7 +155,7 @@ for k, v in pets_dict.items():
 
     for k1, v1 in v.items():
 
-        print(f"{k1}, {v1}")
+        print(f"{k}: {k1}, {v1}")
 
 
 
@@ -196,5 +196,12 @@ city_dict: dict = {
              "popolation": "3,44 million",
              "monuments": "Branderbuge Gate"}}
 
-for k,v in city_dict.items():
-    print(k,v)
+'''for k,v in city_dict.items():
+    for k1,v1 in v.items():
+    #print(k,v)
+        print(f" {k}: {k1}, {v1}")
+'''
+for i in city_dict:
+    print(f"{i}:")
+    for k, v in city_dict[i].items():
+        print(f"{k.capitalize()}: {v}")
